@@ -2,8 +2,8 @@
 
 /**
  * _atoi - converts a string to an integer
- * @s: input string
- * Return: integer
+ * @s: input string.
+ * Return: integer.
  */
 int _atoi(char *s)
 {
@@ -24,6 +24,7 @@ int _atoi(char *s)
 		}
 		count++;
 	}
+
 	for (i = count - size; i < count; i++)
 	{
 		oi = oi + ((*(s + i) - 48) * m);
